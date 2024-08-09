@@ -31,9 +31,8 @@ class PostController extends Controller
             'body' => 'required|max:255'
         ]);
 
-        $result= Post::create($fields);
-
-        return $result;
+//        $result= Post::create($fields);
+//        return $result;
 
     }
 
